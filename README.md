@@ -9,6 +9,11 @@ The objective of the projects are:
 - Create a Postgres database with tables designed to optimize queries on songplay analysis
 - Create an ETL pipeline to feed the data from the user longs and songs files.
 
+## Entity-Relationship Diagram
+This is the entity relationship diagram which will be used for the database:
+![](./sparkifydb_erd.png)
+
+
 
 ## Explanation of Files in the Repository
 
@@ -63,6 +68,7 @@ There are two jupyter notebook files that were created for experimentation:
 1. sql_queries.py - list all the SQL queries needed for the projects, which includes table creations, table insertions, retrieving data from table, and dropping the table.
 2. create_tables.py - drop the existing tables if exist and create empty tables
 3. etl.py - run the ETL to load data to the tables
+4. er_diagram.py - generate the ER diagram picture of the database
 
 
 ## Get Started
